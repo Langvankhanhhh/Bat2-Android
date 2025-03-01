@@ -52,8 +52,8 @@ public class MainActivity extends AppCompatActivity {
                 // This method is called once with the initial value and again
                 // whenever data at this location is updated.
                 Message value = dataSnapshot.getValue(Message.class);
-                tvId.setText(value.getId());
-                tvUserId.setText(value.getUserId());
+                tvId.setText(value.getId().toString());
+                tvUserId.setText(value.getUserId().toString());
                 tvTitle.setText(value.getTitle());
                 tvBody.setText(value.getBody());
             }
