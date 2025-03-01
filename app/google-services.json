@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "913628578347",
+    "project_id": "testthongbao-1683a",
+    "storage_bucket": "testthongbao-1683a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913628578347:android:a6d000176cbe3d0af0e06e",
+        "android_client_info": {
+          "package_name": "com.example.bat2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPAW5b-KB7iTUJ9XVjNYEvWKbKJIcivrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
