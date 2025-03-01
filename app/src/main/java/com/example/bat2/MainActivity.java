@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 tvUserId.setText(value.getUserId().toString());
                 tvTitle.setText(value.getTitle());
                 tvBody.setText(value.getBody());
+                showNotification(value.getTitle(),value.getBody());
             }
 
             @Override
